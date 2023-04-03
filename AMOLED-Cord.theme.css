@@ -4,6 +4,12 @@
     --font-primary: monospace;
     --font-display: monospace;
     --font-headline: monospace;
+    --font-body: monospace;
+    --font-placeholder: monospace;
+    --font-button: monospace;
+    --font-input: monospace;
+    --font-textarea: monospace;
+    --font-select:monospace;
     --lightness-600-660: 0%;
     --lightness-700-760: 0%;
     --lightness-800-860: 0%;
