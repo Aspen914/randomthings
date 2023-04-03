@@ -1,6 +1,7 @@
 :root {
     /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
     --font-code: monospace;
+    --font-primary: monospace;
     --font-display: monospace;
     --font-headline: monospace;
     --lightness-600-660: 0%;
