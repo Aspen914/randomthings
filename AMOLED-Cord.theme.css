@@ -1,15 +1,23 @@
 :root {
     /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
-    --font-code: monospace;
-    --font-primary: monospace;
-    --font-display: monospace;
-    --font-headline: monospace;
-    --font-body: monospace;
-    --font-placeholder: monospace;
-    --font-button: monospace;
-    --font-input: monospace;
-    --font-textarea: monospace;
-    --font-select:monospace;
+    @font-face {
+        font-family: SauceCodePro;
+        src: url('https://github.com/yangchuoxian/SauceCodeProNerdFont/blob/master/Sauce%20Code%20Pro%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf'),
+            format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+            
+    --font-code: SauceCodePro, monospace;
+    --font-primary: SauceCodePro, monospace;
+    --font-display: SauceCodePro, monospace;
+    --font-headline: SauceCodePro, monospace;
+    --font-body: SauceCodePro, monospace;
+    --font-placeholder: SauceCodePro, monospace;
+    --font-button: SauceCodePro, monospace;
+    --font-input: SauceCodePro, monospace;
+    --font-textarea: SauceCodePro, monospace;
+    --font-select: SauceCodePro, monospace;
     --lightness-600-660: 0%;
     --lightness-700-760: 0%;
     --lightness-800-860: 0%;
@@ -69,7 +77,8 @@
     --primary-900: hsl(var(--primary-900-hsl)/1);
     --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);
   }
-  
+
+
   .theme-dark,
   html.theme-dark .theme-light .root-1CAIjD,
   .theme-light.popout-15UxD6 {
